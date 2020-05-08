@@ -8,7 +8,7 @@
     <h2>Team Motto: <%=@team_motto%></h2>
     
     <%@team_members.each do |hero| %>
-      <h2>Hero Name: <%=hero[:name]%> </h2><br/>
+      <h2>Hero Name: <%=hero["name"]%> </h2><br/>
       <p>Hero Power: <%=hero[:power]%></p><br/>
       <p>Hero Biography: <%=hero[:bio]%></p>
     <%end%>
